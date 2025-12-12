@@ -11,8 +11,11 @@
     </header>
     <section>
       <form action="" method="get">
+        <!--method="get" deixa as informacoes na URL porem o postget N, nesse caso e possivel usar o -->
         <fieldset>
+          <!--fieldset e uma teg para agrupar campos de formularios -->
           <legend>Dados Pessoais</legend>
+          <!--legend e usado para dar nome a separacao do  fieldset-->
           <!--dados pessoais-->
           <label for="userName">Nome</label>
           <input type="text" name="userName" required />
@@ -33,9 +36,11 @@
             pattern="[0-9]{11}"
             placeholder="DDD + numeros"
           />
+          <!--pattern="[0-9]{11}"  e usado para infromar quais numero a pessoa pode usar nesse caso e 0-9 e sempre sera colocado em [], o numero todal de digitos que pode ter e definido com {} nesse caso sao 11 {11}-->
           <br />
           <label for="userImage">Upload de foto</label>
           <input type="file" accept="image/*" name="userImage" />
+          <!--type="file" define que pode ser colocado uma img,  accept="image/*" define que pode ser qualquer tipo de img-->
           <br />
         </fieldset>
 
