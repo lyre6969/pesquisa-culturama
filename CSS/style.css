@@ -104,3 +104,10 @@ button[type="reset"]:hover {
   background-color: rgb(238, 0, 0);
   color: #f9f9f9;
 }
+
+.sucessoDeEnvio {
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  margin-top: 10px;
+  color: #9dcf51;
+}
